@@ -17,12 +17,12 @@ description: A Helm chart for deploying a Backstage application
 # Versions are expected to follow Semantic Versioning (https://semver.org/)
 version: 0.16.0
 
-# dependencies:
-#   - name: common
-#     repository: https://charts.bitnami.com/bitnami
-#     tags:
-#       - bitnami-common
-#     version: 1.x.x
+dependencies:
+  - name: common
+    repository: https://charts.bitnami.com/bitnami
+    tags:
+      - bitnami-common
+    version: 1.x.x
 #   - condition: postgresql.enabled
 #     name: postgresql
 #     repository: https://charts.bitnami.com/bitnami
