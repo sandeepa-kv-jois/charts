@@ -109,7 +109,7 @@ backstage:
     backend: 7007
 
   # -- Backstage container command
-  command: ["node", "packages/backend"]
+  command: ["node", "packages/backend", "--config", "app-config.yaml"]
 
   # -- Backstage container command arguments
   args: []
