@@ -82,13 +82,13 @@ backstage:
   image:
 
     # -- Backstage image registry
-    registry: ghcr.io
+    registry: "us.gcr.io"
 
     # -- Backstage image repository
-    repository: backstage/backstage
+    repository: "idp-play/harness-idp-ui"
 
     # -- Backstage image tag (immutable tags are recommended)
-    tag: latest
+    tag: idp-57
 
     # -- Specify a imagePullPolicy.
     # Defaults to 'Always' if image tag is 'latest', else set to 'IfNotPresent'
